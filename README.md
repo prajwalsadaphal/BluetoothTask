@@ -9,7 +9,14 @@ used below solution
 - Similarly, there is no built-in intent for disabling Bluetooth, so you should guide users to disable it manually.
 
 ### setup
-- install apk and allow all the permission
+- to run project run below commands in root of project
+```
+npm install
+npm run android
+```
+
+### app demo
+- install apk shared on drive and allow all the permission
 
 
 ### Code flow
