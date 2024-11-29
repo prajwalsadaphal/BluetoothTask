@@ -29,7 +29,7 @@ disableBluetooth
 ```
 - NativeModule BluetoothModule.kt code can be found in same location as MainApplication.java
 - in native modudule using BluetoothAdapter and BluetoothManager we enable/disable bluetooth here I created intent which is required for enabling api.
-- used package react-native-bluetooth-state-manager for checking bluetooth state on/off in below function checkBluetoothStatus so we can toggle button and show Toast button.
+- used package react-native-bluetooth-state-manager for checking bluetooth state on/off in function checkBluetoothStatus so we can toggle button and show Toast button.
 
 
 
