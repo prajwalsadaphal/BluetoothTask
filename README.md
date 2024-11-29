@@ -22,11 +22,13 @@ npm run android
 ### Code flow
 - All RN code is present in App.tsx
 - By calling requestBluetoothPermissions in useEffect we get all the required persmisson
-- Created Native module BluetoothModule.kt in android for user intent and enabling bluetooth. Then native modules are invoked from App.tsx on button press below are the functions present in App.tsx
+- Created Native module BluetoothModule.kt in android for user intent and enabling bluetooth. Then native modules are invoked from App.tsx on button press below are the functions present in App.tsx where we call NativeModule.
 ```
 enableBluetooth
 disableBluetooth
 ```
+- NativeModule BluetoothModule.kt code can be found in same location as MainApplication.java
+- in native modudule using BluetoothAdapter and BluetoothManager we enable/disable bluetooth here I created intent which is required for enabling api.
 - used package react-native-bluetooth-state-manager for checking bluetooth state on/off in below function checkBluetoothStatus so we can toggle button and show Toast button.
 
 
