@@ -16,6 +16,7 @@ npm run android
 ```
 
 ### app demo
+- release apk https://drive.google.com/file/d/1VQ7oyeAgINzmbiS5mlS1xSQtlSEmtR_l/view?usp=drive_link
 - install apk shared on drive and allow all the permission
 
 
